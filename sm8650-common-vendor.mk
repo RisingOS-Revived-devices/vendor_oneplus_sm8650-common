@@ -1740,7 +1740,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/vendor/lib64/camera/imx809_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx809_3.pb \
     vendor/oneplus/sm8650-common/proprietary/vendor/lib64/camera/s5k3p9_2.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/s5k3p9_2.pb \
     vendor/oneplus/sm8650-common/proprietary/vendor/lib64/camera/s5k3p9_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/s5k3p9_3.pb \
-    vendor/oneplus/sm8650-common/proprietary/vendor/lib64/libpnc_cl_program.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/libpnc_cl_program.bin
+    vendor/oneplus/sm8650-common/proprietary/vendor/lib64/libpnc_cl_program.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/libpnc_cl_program.bin \
+    vendor/oneplus/sm8650-common/proprietary/vendor/lib64/libagmmixer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmmixer.so \
+    vendor/oneplus/sm8650-common/proprietary/vendor/lib64/hw/sound_trigger.primary.pineapple.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.pineapple.so \
 
 PRODUCT_PACKAGES += \
     libostatslog \
